@@ -9,6 +9,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ModalModule} from 'ngx-bootstrap/modal';
 import {ToastrModule} from 'ng6-toastr-notifications';
 import { HomeComponent } from './feature-modules/home/home.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -24,6 +26,7 @@ import { HomeComponent } from './feature-modules/home/home.component';
     BrowserAnimationsModule,
     ModalModule.forRoot(),
     ToastrModule.forRoot(),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],
   bootstrap: [AppComponent]
