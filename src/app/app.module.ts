@@ -26,7 +26,7 @@ import { environment } from '../environments/environment';
     BrowserAnimationsModule,
     ModalModule.forRoot(),
     ToastrModule.forRoot(),
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],
   bootstrap: [AppComponent]
