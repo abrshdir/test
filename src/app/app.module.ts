@@ -11,13 +11,14 @@ import {ToastrModule} from 'ng6-toastr-notifications';
 import { HomeComponent } from './feature-modules/home/home.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-
+import { ModalComponent } from './components/modal/modal.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     ToastComponent,
-    HomeComponent
+    HomeComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +27,7 @@ import { environment } from '../environments/environment';
     BrowserAnimationsModule,
     ModalModule.forRoot(),
     ToastrModule.forRoot(),
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],
   bootstrap: [AppComponent]

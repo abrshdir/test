@@ -1,0 +1,86 @@
+{
+  "configVersion": 1,
+  "timestamp": 1552648858174,
+  "index": "https://abrshdir.github.io/myapp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://abrshdir.github.io/myapp/es2015-polyfills.c5dd28b362270c767b34.js",
+        "https://abrshdir.github.io/myapp/favicon.ico",
+        "https://abrshdir.github.io/myapp/index.html",
+        "https://abrshdir.github.io/myapp/main.ab5e51fcf04f88c4cee8.js",
+        "https://abrshdir.github.io/myapp/polyfills.8bbb231b43165d65d357.js",
+        "https://abrshdir.github.io/myapp/runtime.26209474bfa8dc87a77c.js",
+        "https://abrshdir.github.io/myapp/styles.09122de3aba52b902d6d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://abrshdir.github.io/myapp/assets/icons/icon-128x128.png",
+        "https://abrshdir.github.io/myapp/assets/icons/icon-144x144.png",
+        "https://abrshdir.github.io/myapp/assets/icons/icon-152x152.png",
+        "https://abrshdir.github.io/myapp/assets/icons/icon-192x192.png",
+        "https://abrshdir.github.io/myapp/assets/icons/icon-384x384.png",
+        "https://abrshdir.github.io/myapp/assets/icons/icon-512x512.png",
+        "https://abrshdir.github.io/myapp/assets/icons/icon-72x72.png",
+        "https://abrshdir.github.io/myapp/assets/icons/icon-96x96.png",
+        "https://abrshdir.github.io/myapp/assets/sedan.jpg",
+        "https://abrshdir.github.io/myapp/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "https://abrshdir.github.io/myapp/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "https://abrshdir.github.io/myapp/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "https://abrshdir.github.io/myapp/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "https://abrshdir.github.io/myapp/fontawesome-webfont.fee66e712a8a08eef580.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://abrshdir.github.io/myapp/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://abrshdir.github.io/myapp/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://abrshdir.github.io/myapp/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://abrshdir.github.io/myapp/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://abrshdir.github.io/myapp/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://abrshdir.github.io/myapp/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://abrshdir.github.io/myapp/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://abrshdir.github.io/myapp/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://abrshdir.github.io/myapp/assets/sedan.jpg": "7fe16567c5a52a72bdd83410d79ac03f98bc7060",
+    "https://abrshdir.github.io/myapp/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "https://abrshdir.github.io/myapp/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://abrshdir.github.io/myapp/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "https://abrshdir.github.io/myapp/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "https://abrshdir.github.io/myapp/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "https://abrshdir.github.io/myapp/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "https://abrshdir.github.io/myapp/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "https://abrshdir.github.io/myapp/index.html": "f54f8f0b64ab76ee3fbe8bd2cdeef598c656865e",
+    "https://abrshdir.github.io/myapp/main.ab5e51fcf04f88c4cee8.js": "17b2073603800e8e64ca8d2bba8a161d18cc9839",
+    "https://abrshdir.github.io/myapp/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "https://abrshdir.github.io/myapp/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://abrshdir.github.io/myapp/styles.09122de3aba52b902d6d.css": "bac4ffdd2879589119a4f5d12d846acdc22af37d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
