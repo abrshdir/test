@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Myapp</title>
-  <base href="https://abrshdir.github.io/myapp/">
+  <base href="https://abrshdir.github.io/production/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.json">
@@ -12,5 +12,10 @@
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script type="text/javascript" src="runtime.26209474bfa8dc87a77c.js"></script><script type="text/javascript" src="es2015-polyfills.c5dd28b362270c767b34.js" nomodule></script><script type="text/javascript" src="polyfills.8bbb231b43165d65d357.js"></script><script type="text/javascript" src="main.ab5e51fcf04f88c4cee8.js"></script></body>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('src/ngsw-worker.js');
+    }
+  </script>
+<script type="text/javascript" src="runtime.26209474bfa8dc87a77c.js"></script><script type="text/javascript" src="es2015-polyfills.c5dd28b362270c767b34.js" nomodule></script><script type="text/javascript" src="polyfills.8bbb231b43165d65d357.js"></script><script type="text/javascript" src="main.93d63c7cf94976ea2109.js"></script></body>
 </html>
